@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/339ae6d086.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="weather-wrap">
+      <span class="js-weather-area"></span>
+      <div class="weather-tem">
+        <i class="fas fa-temperature-high"></i>
+        <span class="js-weather-tem"></span>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="js-clock">
+        <h1 class="clock">00:00:00</h1>
+      </div>
+      <form class="js-form form">
+        <input
+          type="text"
+          placeholder="What's your name?"
+          class="js-input input"
+        />
+      </form>
+      <div class="greetingWrap">
+        <h4 class="js-greetings greetings"></h4>
+        <button class="bye">Bye</button>
+      </div>
+      <form class="js-toDoForm toDoForm">
+        <label for="toDo" class="toDoLavel">What's your plan?</label>
+        <input
+          type="text"
+          id="toDo"
+          class="toDoInput"
+          placeholder="Write a to do"
+        />
+      </form>
+      <ul class="js-toDoList list"></ul>
+    </div>
+    <script src="./src/clock.js"></script>
+    <script src="./src/user.js"></script>
+    <script src="./src/todos.js"></script>
+    <script src="./src/bg.js"></script>
+    <script src="./src/weather.js"></script>
+  </body>
+</html>
