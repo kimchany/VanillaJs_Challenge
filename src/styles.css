@@ -90,6 +90,10 @@ body {
   outline: none;
 }
 
+.toDoInput:focus {
+  outline: none;
+}
+
 .greetingWrap {
   display: flex;
   margin-top: 50px;
